@@ -15,7 +15,7 @@ document.querySelector('#submitButton').addEventListener('click', () => {
         document.querySelector('#mainDiv').appendChild(postTitle);
 
         let postContent = document.createElement('p');
-        postContent.innerText = document.querySelector('#title').value;
+        postContent.innerText = document.querySelector('#content').value;
         document.querySelector('#mainDiv').appendChild(postContent);
 
         forma.style.display = "none";
